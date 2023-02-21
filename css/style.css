@@ -1,0 +1,364 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #FEECDA;
+}
+.Hero{
+    height: 100vh;
+    background-color: #000;
+    background-image: url('https://images.unsplash.com/photo-1499343562658-aac4b2c18149?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 69px;
+    position: absolute;
+    width: 571px;
+    height: 24px;
+    left: 1235px;
+    top: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Public Sans';
+}
+
+.Logo{
+    position: absolute;
+    width: 226px;
+    height: 67px;
+    left: 36px;
+    top: 30px;
+}
+h1{
+    position: absolute;
+    width: 665px;
+    height: 112px;
+    left: 618px;
+    top: 324px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+.Chevron{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 927px;
+    top: 775px;
+}
+.navbar li {
+    list-style: none;
+    }
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    margin: 0;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin-left: 257px;
+    margin-top: 68px;
+    margin-bottom: 30px;
+}
+h3{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 22px;
+}
+.overview{
+    display: flex;
+    flex-direction: row;
+    gap: 144px;
+}
+.overview-txt{
+    display: flex;
+    flex-direction: column;
+}
+.members-col{
+    display: flex;
+    flex-direction: column;
+}
+.project-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 258px;
+    gap: 259px;
+}
+.ov-txt{
+    margin: 0;
+    margin-left: 257px;
+    width: 849px;
+    font-family: 'Petrona';
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 36px;
+}
+.Iphone{
+    margin: 0px;
+}
+.Iphone1{
+    margin-top: 161px;
+}
+.tools{
+    margin-left: 257px;
+}
+.members-col p{
+    font-family:'Petrona';
+    font-size: 32px;
+    margin-bottom: 5px;
+    margin: 0px;
+    font-weight: 300;
+}
+.project-col p{
+    font-family: 'Petrona';
+    font-size: 32px;
+    margin-bottom: 5px;
+    margin: 0px;
+    font-weight: 300;
+}
+hr{
+    width: 1387px;
+    text-align: left;
+    margin-left: 260px;
+    border: 0.5px solid black;
+    margin-top: 70px;
+}
+h4{
+    margin: 0px;
+    margin-left: 257px;
+    margin-top: 68px;
+    margin-bottom: 30px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+.DesignProcess{
+    margin-top: 30px;
+    margin-left: 374px;
+}
+h5{
+    margin: 0px;
+    margin-left: 257px;
+    margin-top: 68px;
+    margin-bottom: 30px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px; 
+}
+.MyResponsibilities{
+    margin-top: 30px;
+    margin-left: 374px;
+}
+h6{
+    margin: 0px;
+    margin-left: 257px;
+    margin-top: 68px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px; 
+}
+.Research-title{
+    margin: 0;
+    margin-left: 257px;
+    margin-top: 68px;
+}
+p{
+    font-family: 'Petrona';
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 36px;
+}
+.SubHeader{
+    margin: 0px;
+    margin-left: 257px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Public Sans';
+}
+.Research p{
+    margin: 0px;
+    margin-left: 257px;
+    margin-top: 30px;
+    width: 1435px;
+}
+.Interviews{
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 374px;
+}
+.BulletPoints li{
+    margin: 0px 0px 0px;
+    font-family: 'Petrona';
+    font-size: 32px;
+    font-weight: 300;
+}
+.Research ul{
+    margin: 0px;
+    margin-left: 257px;
+    margin-top: 30px;
+}
+.UP-Title{
+    margin: 0px;
+    margin-left: 257px;
+    margin-top: 30px;
+}
+.UserPersona{
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 374px;
+}
+.US-Title{
+    margin: 0px;
+    margin-left: 257px;
+    margin-top: 30px;
+}
+.UserScenario{
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 374px;
+}
+.CA-Title{
+    margin: 0px;
+    margin-left: 257px;
+    margin-top: 30px;
+}
+.CompetitorAnalysis{
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 374px;
+}
+b{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin: 0px;
+    margin-top: 30px;
+}
+.SolveTitle p{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin: 0px;
+    margin-top: 30px;
+}
+.Solve-Txt b{
+    font-family: 'Petrona';
+    font-size: 32px;
+    font-weight: 700;
+}
+.ProblemTitle{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 257px;
+}
+.Conf p{
+    margin: 0px 0px 0px;
+    font-family: 'Petrona';
+    font-size: 32px;
+    font-weight: 300;
+}
+.Solve-Txt{
+    margin: 0px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.Problem-Txt b{
+    font-family: 'Petrona';
+    font-size: 32px;
+    font-weight: 700;
+}
+.Problem-Txt{
+    font-family: 'Petrona';
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 36px;
+    margin: 0;
+    width: 849px;
+}
+.WireframeTitle{
+    margin: 0px;
+    margin-left: 257px;
+    margin-top: 30px;
+}
+.WireframePics{
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 374px;
+}
+.Final{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin: 0px;
+    margin-top: 30px;
+}
+.Gif{
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 232px;
+    padding-bottom: 40px;
+}
+.FinalPro p{
+    margin: 0px;
+    width: 1419px;
+    margin-left: 257px;
+    margin-top: 30px;
+}
